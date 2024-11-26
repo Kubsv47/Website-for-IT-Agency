@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Allwise</title>
+		<link rel="shortcut icon" type="image/png" href="../img/favicon.png">
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<script
+			src="https://kit.fontawesome.com/7ee579c8f9.js"
+			crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+
+	<body data-bs-spy="scroll" data-bs-target="#navId">
+		<nav
+			class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3"
+			id="navId">
+			<div class="container">
+				<a class="navbar-brand" href="#"
+					><i></i> all<span class="blue-text">wise</span></a
+				>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<i class="fa-solid fa-bars"></i>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ms-auto">
+						<a class="nav-link active" href="#home">Home</a>
+						<a class="nav-link" href="#aboutus">o nas</a>
+						<a class="nav-link" href="#portfolio">portfolio</a>
+						<a class="nav-link" href="#prices">ceny</a>
+						<!-- <a class="nav-link" href="#team">zespół</a>
+						<a class="nav-link" href="#achievements">osiągnięcia</a> -->
+						<a class="nav-link" href="#contact">kontakt</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<header class="hero-img" id="home">
+			<div class="hero-text text-center p-2">
+				<h1 data-aos="fade-up" data-aos-delay="200">
+					witajcie w all<span class="blue-text">wise</span>
+				</h1>
+				<p data-aos="fade-up" data-aos-delay="400">
+					W miejscu, gdzie tworzymy z pasją
+				</p>
+				<a
+					data-aos="fade-up"
+					data-aos-delay="600"
+					href="#aboutus"
+					class="btn btn-outline-light mt-2 text-uppercase"
+					>poznaj nas</a
+				>
+			</div>
+			<div class="hero-shadow"></div>
+
+			<a href="#aboutus"><i class="fa-solid fa-chevron-down bounce-top"></i></a>
+		</header>
+
+		<main>
+			<section id="aboutus" class="aboutus bg-light py-5">
+				<div class="container">
+					<h2 class="section-title">o nas</h2>
+					<div class="underline"></div>
+
+					<div class="row">
+						<div
+							data-aos="zoom-in"
+							data-aos-delay="100"
+							class="col-sm-6 col-md-4">
+							<div class="text-center aboutus-hover">
+								<p><i class="fa-solid fa-palette"></i></p>
+								<p class="aboutus-card-title mb-1">Grafika</p>
+								<p class="aboutus-card-text">Tworzymy grafiki</p>
+							</div>
+						</div>
+						<div
+							class="col-sm-6 col-md-4 text-center aboutus-hover"
+							data-aos="zoom-in"
+							data-aos-delay="200">
+							<p><i class="fas fa-desktop"></i></p>
+							<p class="aboutus-card-title mb-1">Website development</p>
+							<p class="aboutus-card-text">
+								Tworzymy responsywne strony internetowe
+							</p>
+						</div>
+
+						<div
+							class="col-sm-6 col-md-4 text-center aboutus-hover"
+							data-aos="zoom-in"
+							data-aos-delay="400">
+							<p><i class="fa-solid fa-magnifying-glass"></i></p>
+							<p class="aboutus-card-title mb-1">SEO</p>
+							<p class="aboutus-card-text">SEO dla twojej firmy</p>
+						</div>
+						<div
+							class="col-sm-6 col-md-4 text-center aboutus-hover"
+							data-aos="zoom-in"
+							data-aos-delay="300">
+							<p><i class="fas fa-file-code"></i></p>
+							<p class="aboutus-card-title mb-1">najwyższe standardy</p>
+							<p class="aboutus-card-text">
+								Zachowujemy najwyższe standardy podczas pisania kodu.
+							</p>
+						</div>
+						<div
+							class="col-sm-6 col-md-4 text-center aboutus-hover"
+							data-aos="zoom-in"
+							data-aos-delay="500">
+							<p><i class="fas fa-hamburger"></i></p>
+							<p class="aboutus-card-title mb-1">lubimy dobre jedzenie</p>
+							<p class="aboutus-card-text">
+								Lubimy dobrze zjeść przed przystąpieniem do naszych zadań.
+							</p>
+						</div>
+						<div
+							class="col-sm-6 col-md-4 text-center aboutus-hover"
+							data-aos="zoom-in"
+							data-aos-delay="600">
+							<p><i class="fas fa-glass-cheers"></i></p>
+							<p class="aboutus-card-title mb-1">świetne relacje</p>
+							<p class="aboutus-card-text">
+								Zachowujemy świetne relacje z naszymi klientami!
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="aboutus-hero py-5">
+				<div class="aboutus-shadow"></div>
+
+				<div class="container py-5">
+					<h2 class="section-title">tworzymy strony, grafiki i reklamy dla</h2>
+					<div class="underline"></div>
+
+					<div class="row">
+						<div
+							class="col-lg-4 text-center aboutus-hero-item"
+							data-aos="zoom-in"
+							data-aos-delay="700">
+							<p class="aboutus-hero-title mb-1">Małe i Duże Firmy</p>
+							<p><i class="fa-regular fa-building"></i></p>
+							<p class="aboutus-hero-text">
+								Wsparcie dla Twojego biznesu bez względu na jego wielkość.
+								Oferujemy kompleksowe rozwiązania w zakresie tworzenia
+								responsywnych stron internetowych, grafik i reklam, które pomogą
+								Ci osiągnąć cele biznesowe. Nasze usługi są dostosowane do
+								potrzeb zarówno małych lokalnych przedsiębiorstw, jak i dużych
+								firm korporacyjnych. Niezależnie od tego, czy potrzebujesz nowej
+								strony internetowej, nowej kampanii reklamowej czy
+								profesjonalnej grafiki, jesteśmy tutaj, by Ci pomóc. Skuteczne
+								narzędzia marketingowe i wizualne rozwiązania, które podkreślą
+								unikalność Twojej marki i pomogą Ci przyciągnąć uwagę klientów.
+							</p>
+						</div>
+						<div
+							class="col-lg-4 text-center aboutus-hero-item"
+							data-aos="zoom-in"
+							data-aos-delay="800">
+							<p class="aboutus-hero-title mb-1">Osoby Prywatne</p>
+							<p><i class="fa-regular fa-user"></i></p>
+							<p class="aboutus-hero-text">
+								Indywidualne podejście do Twoich potrzeb. Oferujemy
+								profesjonalne usługi tworzenia stron internetowych, grafik i
+								reklam, które pomogą Ci w osiągnięciu swoich osobistych celów.
+								Niezależnie od tego, czy chcesz stworzyć osobistą stronę
+								internetową, zaprosić do udziału w wyjątkowym wydarzeniu, czy
+								też potrzebujesz pomocy w zaprojektowaniu unikalnej grafiki dla
+								swojego projektu, jesteśmy tutaj, by Ci pomóc. Kreatywne i
+								profesjonalne podejście, które podkreśli Twoją tożsamość i
+								pomoże Ci wyrazić siebie w sieci.
+							</p>
+						</div>
+						<div
+							class="col-lg-4 text-center aboutus-hero-item"
+							data-aos="zoom-in"
+							data-aos-delay="900">
+							<p class="aboutus-hero-title mb-1">Influencerzy</p>
+							<p><i class="fa-regular fa-star"></i></p>
+							<p class="aboutus-hero-text">
+								Narzędzia, które pomogą Ci wybić się w gąszczu mediów
+								społecznościowych. Oferujemy wsparcie w tworzeniu stron
+								internetowych, grafik i reklam, które pomogą Ci w budowaniu i
+								rozwijaniu Twojej marki osobistej. Specjalizujemy się w
+								dostarczaniu profesjonalnych narzędzi, które pomogą Ci zwiększyć
+								swoją widoczność i zaangażowanie na platformach
+								społecznościowych. Niezależnie od tego, czy potrzebujesz nowej
+								strony internetowej, nowej strategii reklamowej czy unikalnych
+								grafik dla Twojego profilu, jesteśmy tutaj, by Ci pomóc. Stwórz
+								silną obecność online i przyciągnij swoją docelową publiczność
+								dzięki naszym profesjonalnym usługom.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="portfolio" class="portfolio py-5">
+				<h2 class="section-title">portfolio</h2>
+				<div class="underline"></div>
+
+				<div class="container">
+					<div class="card-group d-lg-none">
+						<div class="card me-3">
+							<img src="../img/portf1.png" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<h5 class="card-title">Rezydencja Pomorska</h5>
+								<p class="card-text">
+									<a
+										target="_blank"
+										data-aos="fade-up"
+										data-aos-delay="600"
+										href="https://rezydencjapomorska.com/"
+										class="btn btn-dark mt-2"
+										>Zobacz</a
+									>
+								</p>
+							</div>
+						</div>
+						<div class="card me-3">
+							<img src="./img/portf2.png" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<h5 class="card-title">TaxQ&A-UK</h5>
+								<p class="card-text">
+									<a
+										target="_blank"
+										data-aos="fade-up"
+										data-aos-delay="600"
+										href="https://taxqa-uk.com/?fbclid=IwAR3MP8Ueh--allckM9mZUcJLAaa2S4DUrtIOzUmkbCgEYJBJe7aBKKb39y0"
+										class="btn btn-dark mt-2"
+										>Zobacz</a
+									>
+								</p>
+							</div>
+						</div>
+						<div class="card me-3">
+							<img src="./img/portf3.png" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<h5 class="card-title">Responsealert</h5>
+								<p class="card-text">
+									<a
+										target="_blank"
+										data-aos="fade-up"
+										data-aos-delay="600"
+										href="https://responsealert.com/?fbclid=IwAR2nf-OFSIzjs4VAg-9a2r10PoHnTItkkCOvGdKk7Unb2yKZY9izC7qTXQc"
+										class="btn btn-dark mt-2"
+										>Zobacz</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div
+						id="carouselExampleCaptions"
+						class="carousel slide d-none d-lg-block">
+						<div class="carousel-indicators">
+							<button
+								type="button"
+								data-bs-target="#carouselExampleCaptions"
+								data-bs-slide-to="0"
+								class="active"
+								aria-current="true"
+								aria-label="Slide 1"></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleCaptions"
+								data-bs-slide-to="1"
+								aria-label="Slide 2"></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleCaptions"
+								data-bs-slide-to="2"
+								aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="./img/portf1.png"
+									class="d-block w-100"
+									alt="Okładka gry Pro-X Football" />
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Rezydencja Pomorska</h5>
+									<p>
+										<a
+											target="_blank"
+											data-aos="fade-up"
+											data-aos-delay="600"
+											href="https://rezydencjapomorska.com/"
+											class="btn btn-outline-light mt-2"
+											>Zobacz</a
+										>
+									</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="./img/portf2.png"
+									class="d-block w-100"
+									alt="Okładka gry Racing GT" />
+								<div class="carousel-caption d-none d-md-block">
+									<h5>TaxQ&A-UK</h5>
+									<p>
+										<a
+											target="_blank"
+											data-aos="fade-up"
+											data-aos-delay="600"
+											href="https://taxqa-uk.com/?fbclid=IwAR3MP8Ueh--allckM9mZUcJLAaa2S4DUrtIOzUmkbCgEYJBJe7aBKKb39y0"
+											class="btn btn-outline-light mt-2"
+											>Zobacz</a
+										>
+									</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="./img/portf3.png"
+									class="d-block w-100"
+									alt="Okładka gry Racing GT" />
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Responsealert</h5>
+									<p>
+										<a
+											target="_blank"
+											data-aos="fade-up"
+											data-aos-delay="600"
+											href="https://responsealert.com/?fbclid=IwAR2nf-OFSIzjs4VAg-9a2r10PoHnTItkkCOvGdKk7Unb2yKZY9izC7qTXQc"
+											class="btn btn-outline-light mt-2"
+											>Zobacz</a
+										>
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carouselExampleCaptions"
+							data-bs-slide="prev">
+							<span
+								class="carousel-control-prev-icon"
+								aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#carouselExampleCaptions"
+							data-bs-slide="next">
+							<span
+								class="carousel-control-next-icon"
+								aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<section id="prices" class="prices py-5 bg-light">
+				<h2 class="section-title">ceny</h2>
+				<div class="underline"></div>
+
+				<div class="container">
+					<div class="price-wrap row text-center justify-content-center">
+						<div class="col-md-6 col-xl-4">
+							<div class="price-box">
+								<p class="price-title">Grafika</p>
+								<hr />
+								<p>
+									<i class="fa-solid fa-palette"></i>
+								</p>
+								<p><span>Produkt: </span>Grafiki dla firm</p>
+								<p><span>Cechy: </span>Rozbudowana</p>
+								<p><span>Rodzaj: </span>Do wyboru</p>
+								<p class="price-tag">Od 249zł</p>
+								<a
+					href="#contact"
+					class="btn btn-secondary mt-2 text-uppercase"
+					>kontakt</a>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-4">
+							<div class="price-box">
+								<p class="price-title">Strona internetowa</p>
+								<hr />
+								<p>
+									<i class="fa-solid fa-desktop"></i>
+								</p>
+								<p><span>Produkt: </span>Prosty Landing page</p>
+								<p><span>Responsywna: </span>Tak</p>
+								<p><span>Typ: </span>Wordpress</p>
+								<p class="price-tag">Od 1199zł</p>
+								<a
+					href="#contact"
+					class="btn btn btn-primary mt-2 text-uppercase"
+					>kontakt</a>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-4">
+							<div class="price-box">
+								<p class="price-title">Strona od podstaw</p>
+								<hr />
+								<p>
+									<i class="fa-solid fa-code"></i>
+								</p>
+								<p><span>Produkt: </span>Rozbudowana Strona</p>
+								<p><span>Responsywna: </span>Tak</p>
+								<p><span>Typ: </span>Html</p>
+								<p class="price-tag">Do ustalenia</p>
+								<a
+					href="#contact"
+					class="btn btn-secondary mt-2 text-uppercase"
+					>kontakt</a
+				>
+							</div>
+						</div>
+					</div>
+
+					<p class="price-info text-center">
+						Skorzystaj z jednego z trzech głównych pakietów lub
+						<a href="#contact">skontaktuj się</a> z nami i ustal warunki
+						indywidualne!
+					</p>
+					<!-- <p class="text-muted text-center">
+						Pakiet <strong>FULL PACK</strong> zawiera wersję gier na urządzenia
+						mobilne, PC oraz konsole.
+					</p> -->
+				</div>
+			</section>
+
+			<!-- <section id="team" class="team py-5">
+				<h2 class="section-title">team</h2>
+				<div class="underline"></div>
+
+				<div class="container">
+					<div class="card-group team-carousel">
+						<div class="card mx-3">
+							<img
+								src="./img/team/adult-2449725_1920.jpg"
+								class="card-img-top"
+								alt="..." />
+							<div class="card-body">
+								<h5 class="card-title">ceo</h5>
+								<p class="card-text">
+									Szef szefów. Nikt nie zna jego imienia. Podwładni mówią na
+									niego "Pan Prezes".
+								</p>
+							</div>
+							<div class="card-footer d-flex justify-content-around">
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+						<div class="card mx-3">
+							<img
+								src="./img/team/woman-1320810_1920.jpg"
+								class="card-img-top"
+								alt="..." />
+							<div class="card-body">
+								<h5 class="card-title">hr</h5>
+								<p class="card-text">
+									Paula zajmuje się rekrutowaniem młodych i gniewnych talentów.
+								</p>
+							</div>
+							<div class="card-footer d-flex justify-content-around">
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+						<div class="card mx-3">
+							<img
+								src="./img/team/building-2762241_1920.jpg"
+								class="card-img-top"
+								alt="..." />
+							<div class="card-body">
+								<h5 class="card-title">grafik</h5>
+								<p class="card-text">
+									Pan Wiesio jest grafikiem z długoletnim stażem na L4.
+								</p>
+							</div>
+							<div class="card-footer d-flex justify-content-around">
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+						<div class="card mx-3">
+							<img
+								src="./img/team/entrepreneur-2326419_1920.jpg"
+								class="card-img-top"
+								alt="..." />
+							<div class="card-body">
+								<h5 class="card-title">tomek</h5>
+								<p class="card-text">
+									To jest Tomek. Nikt oprócz prezesa nie wie, czym zajmuje się
+									Tomek.
+								</p>
+							</div>
+							<div class="card-footer d-flex justify-content-around">
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+						<div class="card mx-3">
+							<img
+								src="./img/team/women-1209678_1920.jpg"
+								class="card-img-top"
+								alt="..." />
+							<div class="card-body">
+								<h5 class="card-title">dział jakości</h5>
+								<p class="card-text">
+									Ania i Hania sprawdzają starannie każdy nasz produkt.
+								</p>
+							</div>
+							<div class="card-footer d-flex justify-content-around">
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+					</div>
+				</div> -->
+			<!-- <div class="team-shadow"></div>
+			</section>
+
+			<section class="achievements py-5" id="achievements">
+				<h2 class="section-title">osiągnięcia</h2>
+				<div class="underline"></div>
+
+				<div class="container">
+					<div class="row text-center achievements-list">
+						<div
+							class="col-md-6 col-lg-4 col-xl-2"
+							data-aos="zoom-in"
+							data-aos-delay="100">
+							<i class="fas fa-thumbs-up"></i>
+							<p class="achievement-number">100%</p>
+							<p class="achievement-text">zadowolonych klientów</p>
+						</div>
+						<div
+							class="col-md-6 col-lg-4 col-xl-2"
+							data-aos="zoom-in"
+							data-aos-delay="50">
+							<i class="fas fa-trophy"></i>
+							<p class="achievement-number">50</p>
+							<p class="achievement-text">Zrealizowanych projektów</p>
+						</div>
+						<div
+							class="col-md-6 col-lg-4 col-xl-2"
+							data-aos="zoom-in"
+							data-aos-delay="200">
+							<i class="fas fa-user-friends"></i>
+							<p class="achievement-number">5</p>
+							<p class="achievement-text">pracowników</p>
+						</div>
+						<div
+							class="col-md-6 col-lg-4 col-xl-2"
+							data-aos="zoom-in"
+							data-aos-delay="250">
+							<i class="far fa-building"></i>
+							<p class="achievement-number">7</p>
+							<p class="achievement-text">nowoczesnych biur</p>
+						</div>
+						<div
+							class="col-md-6 col-lg-4 col-xl-2"
+							data-aos="zoom-in"
+							data-aos-delay="100">
+							<i class="fas fa-dice"></i>
+							<p class="achievement-number">58</p>
+							<p class="achievement-text">lorem ipsum</p>
+						</div>
+						<div
+							class="col-md-6 col-lg-4 col-xl-2"
+							data-aos="zoom-in"
+							data-aos-delay="300">
+							<i class="fas fa-share-alt"></i>
+							<p class="achievement-number">50</p>
+							<p class="achievement-text">fanów w social media</p>
+						</div>
+					</div>
+				</div>
+			</section> -->
+
+			<section id="contact" class="contact py-5">
+				<h2 class="section-title">kontakt</h2>
+				<div class="underline"></div>
+
+				<div class="container">
+					<div class="row text-center contact-us">
+						<div class="col-sm-6 col-lg-4 contact-item order-1">
+							<h3>Skontaktuj się z nami</h3>
+							<p>kontakt@allwise.pl</p>
+							<p>+48 452 099 639</p>
+						</div>
+
+						<div class="col-lg-4 order-0 order-lg-1 contact-item">
+							<h3>social media</h3>
+							<div class="social-media">
+								<a href="https://www.facebook.com/profile.php?id=61550517312412"
+									><i class="fab fa-facebook-f"></i
+								></a>
+								<a href="https://www.instagram.com/allwise.pl/"
+									><i class="fa-brands fa-instagram"></i
+								></a>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-lg-4 contact-item order-1">
+							<h3>Skontaktuj się z nami</h3>
+							<p>WhatsApp</p>
+							<p>+48 721 456 902</p>
+						</div>
+					</div>
+				</div>
+				<div class="contact-shadow"></div>
+			</section>
+		</main>
+
+		<footer class="bg-dark text-light py-4 text-center">
+			<p class="mb-0">&copy; 2024 | Allwise</p>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"></script>
+		<script
+			type="text/javascript"
+			src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script
+			type="text/javascript"
+			src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script
+			type="text/javascript"
+			src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				startEvent: 'DOMContentLoaded',
+				offset: 200,
+				once: true,
+			});
+		</script>
+		<script src="./js/slick.js"></script>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
